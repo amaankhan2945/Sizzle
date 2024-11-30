@@ -1,0 +1,37 @@
+body {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Default text color to white */
+  }
+  h1 {
+    color: rgb(255, 0, 98); /* Set h1 heading color to red */
+  }
+  .navbar-light .navbar-brand {
+    color: rgb(255, 255, 255); /* Navbar brand white */
+  }
+  .navbar-light .nav-link {
+    color: rgb(153, 0, 51); /* Navbar links white */
+  }
+  .offcanvas-header, .offcanvas-body {
+    background-color: #000000f6; /* Dark background for the offcanvas menu */
+  }
+  .table{
+    color: white;
+  }
+  .table th{
+    color: red;
+  }
+  .logoutb a{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+
+  }
+  .logoutbb a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+  }
+  span{
+    color: rgb(226, 6, 43);
+  }

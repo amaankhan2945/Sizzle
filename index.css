@@ -1,0 +1,770 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(47, 49, 49);
+    color: aliceblue;
+}
+SPAN{
+    color: red;
+}
+h1 {
+    color: #ffffff; /* Bright White for clean headings */
+    font-family: 'Arial', sans-serif; /* Classic font for a bold look */
+}
+
+h3 {
+    color: #e00038; /* KFC Red for headings */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Paragraph Styles */
+p {
+    color: #888888; /* Light grey for readability */
+    font-family: 'Verdana', sans-serif; /* Clean and simple text */
+}
+h5{
+    color: #FF0000;
+}
+.icon {
+    margin-right: 8px; /* Space between icon and text */
+}
+/* nav hover */
+.nav-link{
+color: red;
+position: relative;
+}
+.nav-linkk::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #b81c00; /* Use the desired color */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+
+
+}
+.nav-linkk:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+/* nav hover */
+/* Button Styles */
+button {
+    background-color: #FF0000; /* KFC Red */
+    color: #FFFFFF; /* White text */
+    border: 2px solid #FFFFFF; /* White Border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    background-color: #FFFFFF; /* Switch to White on hover */
+    color: #FF0000; /* Red text on hover */
+    border: 2px solid #FF0000; /* Red border */
+}
+
+/* Links */
+
+
+body{
+    background-color: black;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading{
+    margin-top: 80px;
+}
+
+/* nav :start
+
+/* Navbar background with water drop effect */
+/* Centering nav-items */
+
+.navbar-nav {
+
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.navbar-nav li{
+    margin: 18px;
+
+}
+.navbar-nav li .logo{
+    margin-left: 20px;
+}
+.navbar .btn {
+  margin-right: 14px;
+  transition: 0.9s ease ; 
+  background-color: rgb(0, 0, 0);
+  color: rgb(239, 255, 255);
+  border: 2px solid rgb(189, 0, 0);
+}
+.navbar .btn:hover {
+    margin-right: 14px;
+     transition: 0.9s ease ; 
+     background-color: rgb(255, 255, 255);
+     color: rgb(253, 0, 0);
+     border: 2px solid rgb(44, 0, 0);
+ }
+
+/* Centering nav-items */
+/* nav:end */ */
+/* 
+home section images */
+
+.home{
+    margin-top: 50px;
+}
+.homeimageone{
+    height: 100%;
+    width: 100%;
+}
+.homeimagetwo{
+    height: 100%;
+    width: 100%;
+}
+.homeimagethree{
+    height: 100%;
+    width: 100%;
+}
+.homeimagefour{
+    height: 100%;
+    width: 100%;
+}
+.homeimagefive{
+    height: 100%;
+    width: 100%;
+}
+/* card section */
+.cardcat{
+    margin-top: 40px;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 20px;
+}
+
+.centerd{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}  
+.cardbutton{
+    color: #e4002b;;
+    padding: 10px;
+}
+.cardbutton:hover{
+    color: #cf1c3d;;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+   border: 2px solid rgb(252, 239, 239);
+   
+}
+.heading{
+    align-items: center;
+    text-align: center;
+}
+.heading span{
+    color:#e4002b;;
+    align-items: center;
+    text-align: center;
+}
+/* service cards */
+.cardservice{
+    margin-top: 40px;
+    background-color: #141516;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    border: 2px solid;
+    padding: 20px;
+    
+}
+.sale{
+    align-items: end;
+    text-align: start;
+    height: 38px;
+     margin-right: 20px;
+    width: 70px;
+    padding: 6px;
+    border: 4px solid black;
+    background-color: rgb(248, 19, 19);
+}
+
+
+/* category buttons */
+.catbutton {
+    border: 2px solid black;
+    margin: 4px;
+    padding: 7px 7px 7px 7px;
+}
+.catbutton:hover {
+    border: 2px solid rgba(58, 60, 77, 0.651);
+    background: black;
+    color: aliceblue;
+}
+/* category order now and view buttton */
+/* order stars */
+.star{
+    color: rgb(255, 145, 0);
+    margin: 3px 3px 3px 3px;
+}
+
+/* DEAL */
+.boxx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxone{
+    display: flex;
+    margin: 30px;
+    gap: 55px;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width:50px ;
+    background-color: aliceblue;
+    color: black;
+}
+
+.dayy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dayone{
+    display: flex;
+    margin:10px;
+    gap: 47px;
+    text-align: center;
+}
+.day{
+    background-color: rgb(255, 0, 55);
+    height: 30px;
+    width: 65px;
+}
+
+.custom-image {
+    height: 200px;
+    width: 100%; /* This ensures the width adjusts proportionally */
+    margin-top: 45px;
+}
+
+.content{
+    position: relative;
+    bottom: 40%;
+    text-align: center;
+    justify-items: center;
+    margin: 20px;  
+    color: aliceblue;
+}
+
+/* footer */
+
+
+/* followlinks */
+.contact {
+    align-items: center;
+}
+.social {
+   
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+ .social li{
+  margin: 10px;
+  padding: 2px;
+ }
+.social a{
+     text-decoration: none;
+     color: rgb(104, 109, 114);
+}
+.social a:hover{
+  
+    color: rgba(255, 255, 255, 0.897);
+}
+.bi-facebook:hover{
+    color: rgb(31, 72, 255);
+}
+.bi-whatsapp:hover{
+    color: rgb(0, 187, 0);
+}
+.bi-instagram:hover{
+    color: rgb(187, 0, 93);
+}
+.bi-twitter:hover{
+    color: rgb(73, 129, 233);
+}
+
+
+
+.mail{
+    margin-bottom: 20px;
+}
+
+
+/* section 2 last */
+.lastsectionimage {
+    height: 200px;
+    width: 100%;
+}
+
+.sectiontext{
+   position: relative;
+   
+   align-items: center;
+   text-align: center;
+}
+.textsection{
+    height: 200px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+
+
+
+
+/* about_us section */
+.aboutbanner{
+    height:  100%;
+    width: 100%;
+}
+
+/* <!-- about info --> img */
+.hellone{
+    height: 100%;
+    width: 100%;
+}
+.aboutinfo{
+    top
+}
+
+/* <!-- about info --> */
+
+/* our team */
+.ourteam{
+    align-items:center;
+    text-align: center;
+}
+/* our team */
+
+/* customers reviews */
+
+
+
+/* contact */
+
+
+/* contact page */
+.branches{
+    text-align: center;
+    
+}
+.branch{
+    height: 200px;
+    width: 30%;
+    background-color: #5c5959;
+    margin: 7px;
+}
+
+
+/*CONTACT FORM*/
+.contactus{
+   align-items: center;
+   text-align: center;
+   border: 3px solid rgb(66, 64, 64);
+   padding: 34px;
+    
+}
+.form-group input{
+    border: 4px solid rgb(0, 0, 0);
+    background-color: #1d1d1d;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-left: 23%;
+    width: 50%;
+     
+}
+
+.form-group{
+
+ margin: 10px;
+}
+/*CONTACT FORM*/
+
+/* zinger burger */
+
+
+/* ADDITON HOME LAST IMAGES FEEL HUNGER */
+.feelhunger{
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+@media (max-width: 400px) {
+    .signbanner {
+        display: none;
+    }
+}
+
+/* 
+login signnup */
+
+.logt{
+    margin-top: 10%;
+}
+.username{
+    padding: 3px;
+    margin-top: 10%;     
+}
+/* username last button */
+.usernameb{
+    padding: 8px;
+    margin-top: 3%;   
+}
+.usernameb label{
+    padding: 15px;
+}
+.usernameb .btn{
+   background-color: #000000;
+}
+.usernameb .btn:hover{
+   
+    border:2px solid white;
+ }
+.slog {
+    list-style: none;
+    font-size: large;
+    text-decoration: none;
+}
+.slog :hover{
+    list-style: none;
+    font-size: large;
+    text-decoration: none;
+}
+/* username last button */
+
+.username label{
+    padding: 16px;
+}
+.username label:hover{
+ 
+    color: #888888;
+}
+.username input{
+    padding: 3px;
+    margin: 2px;
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.089);
+    background-color: #000000;
+    width: 30vh;
+}
+.username input:hover{
+    padding: 3px;
+    margin: 2px;
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.39);
+
+    color:white ;
+}
+.username label{
+    padding: 30px;
+    font-size: large;
+    font-size: 22px;
+}
+
+.iconsize{
+    padding: 5px;                
+    height: 12px;
+    font-size: 22px;
+}
+
+.signbanner{
+    height: 800px;
+    width: 100%;   
+}
+.sbanner{
+    margin-right: 100px;
+}
+.sbutton{
+    margin-left: 8%;
+    width: 30%;
+   
+}
+/* 
+login signnup end */
+
+
+
+
+/* category top products */
+.headpro{
+    height: 230px;
+    width: 231px;
+   border-radius: 100% 100% 3% 100%;
+    background-color: #1c1816;
+    margin-top: 50px;
+}
+.headpro:hover{
+    height: 230px;
+    width: 231px;
+   border-radius: 100% 100% 3% 100%;
+    background-color: #1c1816;
+    margin-top: 10px;
+    transition: 0.4s;
+    
+}
+.dot{
+    background-color: #000000;
+    box-shadow: white;
+    height: 20px;
+    width: 22px;  
+    border-radius: 100%;
+    margin-left: 175px;
+    margin-top: 25px;
+    position: relative;
+    box-shadow: 2px 2px 2px 4px rgb(24, 23, 23);
+     
+}
+.headh2{
+    text-decoration:underline;
+    text-decoration-color:rgb(255, 0, 64) ;
+    text-decoration-thickness:3.5px ;
+    text-underline-offset:10px ;
+    
+}
+.headh2:hover{
+    text-decoration:underline;
+    text-decoration-color:rgba(255, 0, 64, 0.747) ;
+    text-decoration-thickness:3.5px ;
+    text-underline-offset:10px ;
+}
+.content{
+align-items: center;
+text-align: center;
+justify-content: center;
+
+}
+.content img{
+    height: 100px;
+    margin-top: 130px;
+
+}
+
+/* category top products */
+
+/* menue heading */
+.ourmenue{
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+.catcard{
+    background-color: #1c1816;
+}
+.deccard{
+    height: 25px;
+    width: 5%;
+    background-color: #e4002b;
+    margin-left: 100px;
+}
+.deccardtwo{
+    height: 25px;
+    width: 5%;
+    background-color: #e4002b;
+    margin-left: 160px;
+    bottom: 25px;
+    position: relative;
+    
+}
+.deccardthree{
+    height: 25px;
+    width: 5%;
+    background-color: #e4002b;
+    margin-left: 130px;
+    bottom: 50px;
+    position: relative;
+    
+}
+
+.card{
+    background-color: #1c1816
+}
+.price{
+    height: 30px;
+    width: 70px;
+
+    text-align: center;
+ 
+    font-size: large;
+    
+}
+.decbutton{
+    background-color: #e00038;
+    color: #000000;
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    margin-left: 9vh;
+    top: 30px;
+}
+.decbutton:hover{
+    background-color: #ffffff;
+    
+    text-decoration: none;
+    color: #e00038;
+    padding: 6px;
+    border-radius: 2px 2px 2px 4px;
+    position: relative;
+    margin-left: 9vh;
+    top: 30px;
+}
+.catcardimg{
+    height: 190px;
+}
+
+/* login signup btn */
+.loginb a{
+    color: white;
+    text-decoration: none;
+}
+.loginb a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.signupb a{
+    color: white;
+    text-decoration: none;
+}
+.signupb a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.loginbb{
+    margin-left: 255px;
+}
+
+ .logsig{
+    margin: 0px;
+ 
+    margin-right: 0px;
+} 
+.navbar-nav{
+    margin-left: 30px;
+}
+.navimgg{
+    height: 120px;
+}
+.navbar-brand{
+    margin-left: 75px;
+}
+
+
+/* footer */
+/* Footer Styles */
+.footer {
+   
+    color: #f0f0f0; /* Light text color for contrast */
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+}
+
+.footer .footer-section h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ffffff; /* Accent color */
+}
+
+.footer .footer-section p {
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.footer .footer-section p::before {
+    content: '• '; /* Adds a bullet for each line */
+    color: #b00000; /* Accent color */
+    margin-right: 5px;
+}
+
+.footer .footer-section a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.footer .footer-section a:hover {
+    color: #cb0202;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+   
+    font-size: 14px;
+   
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .footer .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer .footer-section {
+        margin: 20px 0;
+    }
+}
